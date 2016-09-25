@@ -3,7 +3,7 @@
 Pulse 1.0.0
 Copyright 2016, Jamie Curd
 https://github.com/jamiecurd/pulse
-base CSS src File
+base/main CSS src File
 
 -------------------------------- */
 
@@ -11,10 +11,12 @@ base CSS src File
     box-sizing: border-box;
 }
 
+/*Setting deafult text size*/
 html {
   font-size: 62.5%;
 }
 
+/*Setting up more base font styling and sizing, also margin's removed*/
 body {
   letter-spacing: 0.01em;
   line-height: 1.6;
@@ -26,6 +28,7 @@ body {
   border: 0;
 }
 
+/*Container*/
 .container {
     margin: auto;
     width: 90%;

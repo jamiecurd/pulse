@@ -7,6 +7,7 @@ button CSS src File
 
 -------------------------------- */
 
+/*Filled(standerd) button*/
 .btn, button {
   outline: none;
   border: none;
@@ -27,9 +28,10 @@ button CSS src File
   opacity: .85;
 }
 
+/*Outlined Button*/
 .btn-outline {
-  border: 3px solid #fff;
-  color: #fff;
+  border: 3px solid #000;
+  color: #000;
   background: transparent;
   transition: all 0.5s ease;
 }
