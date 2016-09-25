@@ -1,0 +1,16 @@
+/* --------------------------------
+
+Pulse 1.0.0
+Copyright 2016, Jamie Curd
+https://github.com/jamiecurd/pulse
+Lists CSS src File
+
+-------------------------------- */
+
+ul {
+  list-style: circle inside;
+}
+
+ol {
+  list-style: decimal inside;
+}

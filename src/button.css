@@ -1,0 +1,35 @@
+/* --------------------------------
+
+Pulse 1.0.0
+Copyright 2016, Jamie Curd
+https://github.com/jamiecurd/pulse
+button CSS src File
+
+-------------------------------- */
+
+.btn, button {
+  outline: none;
+  border: none;
+  padding: 1em 3.0em;
+  border-radius: .35em;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1em;
+  letter-spacing: 1px;
+  overflow: hidden;
+  background: #000000;
+  color: #fff
+}
+
+.btn:hover, button:hover, [type=submit]:hover {
+  -webkit-transition: all 60ms ease;
+  transition: all 60ms ease;
+  opacity: .85;
+}
+
+.btn-outline {
+  border: 3px solid #fff;
+  color: #fff;
+  background: transparent;
+  transition: all 0.5s ease;
+}
