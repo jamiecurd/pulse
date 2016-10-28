@@ -22,7 +22,12 @@ responsive grid CSS src File
 
 [class*="col-"] {
     float: left;
-    padding: 100px;
+    padding: 10px;
+}
+
+.row {
+  margin-top: 2.0833%;
+  padding: 0 1.04165%;
 }
 
 .row::after {
