@@ -1,0 +1,25 @@
+{
+  "name": "pulse",
+  "description": "Pulse is A minimal CSS Framework",
+  "main": "dist/pulse.css",
+  "keywords": [
+    "Pulse",
+    "Jamie",
+    "Curd",
+    "CSS",
+    "Framework",
+    "minimal"
+  ],
+  "authors": [
+    "Jamie Curd <jamie.curd@gmail.com> (https://jamiecurd.tk)"
+  ],
+  "license": "MIT",
+  "homepage": "https://getpulse.ml",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
