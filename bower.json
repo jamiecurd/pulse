@@ -19,13 +19,14 @@
     "**/.*",
     "node_modules",
     "bower_components",
-	"bower.json",
+	".bower.json",
 	"CNAME",
 	"imagefortesting.jpg",
 	"index.html",
 	"LICENSE",
 	"src",
     "test",
+	"assets",
     "tests"
   ]
 }
