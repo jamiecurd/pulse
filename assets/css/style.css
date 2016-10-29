@@ -230,7 +230,7 @@ br {
   margin: 0 auto 1.5em;
 }
 
-#gridexample .row, [class^='col-']:first-child, .row #gridexample [class*=" col-"]:first-child{
+#gridexample .row, [class^='col-']:first-child, #gridexample .row, [class*=" col-"]:first-child{
   margin-left: 0 !important;
   float: left;
   background-color: rgb(62, 62, 62) !important;
