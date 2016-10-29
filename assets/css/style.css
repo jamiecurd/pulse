@@ -198,3 +198,41 @@ br {
   display: block;
   margin: 10px;
 }
+
+.text7 {
+  font-size: 30px;
+  font-family: "Montserrat";
+  color: rgb(62, 62, 62);
+  line-height: 0.2;
+  text-align: left;
+  margin-top: 70px;
+}
+
+.text8 {
+  font-size: 15px;
+  font-family: "Montserrat";
+  color: rgb(62, 62, 62);
+  line-height: 0.2;
+  text-align: left;
+}
+
+#gridExample .col, #gridExample [class^='col-'], #gridExample [class*=" col-"] {
+  background: #EEE;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  min-height: 30px !important;
+  line-height: 30px;
+  margin-bottom: .75rem;
+  font-weight: bold;
+  letter-spacing: .1rem;
+  margin: 0 auto 1.5em;
+}
+
+.row #gridexample [class^='col-']:first-child, .row #gridexample [class*=" col-"]:first-child{
+  margin-left: 0 !important;
+  float: left;
+  background-color: rgb(62, 62, 62) !important;
+  color: #f9f7f7;
+}
