@@ -2,6 +2,8 @@ html {
   background-color: #f9f7f7;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 .container {
   margin: auto;
   width: 80%;
