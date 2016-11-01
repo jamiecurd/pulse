@@ -12,9 +12,7 @@
 	<!--Link Stylesheets-->
 	<link type="text/css" rel="stylesheet" href="assets/css/pulse.css">
   <link type="text/css" rel="stylesheet" href="assets/css/style.css">
-	<link type="text/css" rel="stylesheet" src="https://getpulse.ml/dist/pulse.min.css"/>
-  <link type="text/css" rel="stylesheet" href="https://raw.githubusercontent.com/jamiecurd/pulse/master/src/misc.css">
-  <link type="text/css" rel="stylesheet" href="https://raw.githubusercontent.com/jamiecurd/pulse/master/src/button.css">
+	<link type="text/css" rel="stylesheet" href="https://getpulse.ml/dist/pulse.min.css"/>
 	<!--Meta Section-->
 	<meta name="Keywords" content="Pulse, PulseCSS, framework, css, js, design, jamiecurd, jamie, curd">
 	<meta name="description" content="Pulse | Minimal CSS Framework, designed to prevent you from having to type the same lines of code everytime you start a new project">
@@ -84,7 +82,7 @@ Pulse is ~3kb when minified which means it loads super fast.</p>
   <p class="text7">Grid</p>
 	<p class="text8">Pulse uses a responsive 12 coloum grid system using a percentage system.</p>
 
-	<div id="gridExample">
+	<div id="gridExample" class="gridexample">
 		<div class="row">
 			<div class="col-1">ONE</div>
 			<div class="col-11">ELEVEN</div>
@@ -143,20 +141,45 @@ Pulse is ~3kb when minified which means it loads super fast.</p>
 	<p class="text7">Buttons</p>
 	<p class="text8">Pulse has 2 variations of buttons with more coming soon, but for now you have the option of filled or outlined buttons</p>
 		<br>
+		<!--Standard Button-->
 		<div class="row">
+			<div class="col-1"></div>
 			<div class="col-6">
 				<p class="text6"><strong>Standard (Filled) Button</strong></p>
 		    <p class="text6">This is the default style for buttons</p>
+				<code>&lt;button&gt;Test&lt;/button&gt;</code> <p class="text6">or add</p> <code>&lt;input class="btn"&gt;Test&lt;/input&gt;</code>
 			</div>
 
 			<div class="col-6">
+				<div class="centered">
 				<input class="btn" type="button" value="Test">
+			</div>
 			</div>
 		</div>
 
+<br>
+		<!--Outline Button-->
+		<div class="row">
+			<div class="col-1"></div>
+			<div class="col-6">
+				<p class="text6"><strong>Standard (Filled) Button</strong></p>
+		    <p class="text6">This is the default style for buttons</p>
+				<code>&lt;button class="btn-outline"&gt;Test&lt;/button&gt;</code> <p class="text6">or add</p> <code>&lt;input class="btn-outline"&gt;Test&lt;/input&gt;</code>
+			</div>
+
+			<div class="col-6">
+				<div class="centered">
+				<input class="btn btn-outline" type="button" value="Test">
+			</div>
+			</div>
+		</div>
 </section>
 
-
+<!--Lists-->
+<section id="lists">
+	<p class="text7">Lists</p>
+	<p class="text8">Pulse</p>
+</section>
 
 
 	</div>

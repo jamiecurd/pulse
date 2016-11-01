@@ -4,9 +4,11 @@ html {
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
+
+
 .container {
   margin: auto;
-  width: 80%;
+  width: 80% !important;
   padding: 10px;
 }
 
@@ -46,7 +48,7 @@ h2 {
 
 p{
     text-align: center;
-  font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .grey {
@@ -172,7 +174,7 @@ button {
 }
 
 a {
-color: rgb(62, 62, 62);
+color: rgb(62, 62, 62) !important;
 }
 
 /*Documentation*/
@@ -235,7 +237,7 @@ br {
   margin: 0 auto 1.5em;
 }
 
-#gridexample .row, [class^='col-']:first-child, #gridexample .row, [class*=" col-"]:first-child{
+.gridexample [class^='col-']:first-child, .gridexample [class*=" col-"]:first-child{
   margin-left: 0 !important;
   float: left;
   background-color: rgb(62, 62, 62) !important;
