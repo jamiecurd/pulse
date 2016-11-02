@@ -243,3 +243,13 @@ br {
   background-color: rgb(62, 62, 62) !important;
   color: #f9f7f7;
 }
+
+pre>code {
+  display:block;
+  padding:1rem 1.5rem;
+  white-space:pre-wrap;
+  white-space:-moz-pre-wrap;
+  white-space:-pre-wrap;
+  white-space:-o-pre-wrap
+  ;word-wrap:break-word
+}
