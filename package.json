@@ -1,0 +1,36 @@
+{
+  "name": "pulsecss",
+  "version": "1.0.0",
+  "description": "Pulse is a minimal CSS network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamiecurd/pulse.git"
+  },
+  "keywords": [
+    "Pulse",
+    "Jamie",
+    "Curd",
+    "CSS",
+    "Framework",
+    "minimal"
+  ],
+  "author": {
+    "name": "Jamie Curd",
+    "email": "jamie.curd@gmail.com",
+    "url": "https://getpulse.ml"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamiecurd/pulse/issues"
+  },
+  "homepage": "https://getpulse.ml",
+  "gitHead": "57f6757bfd5a9558f503e3973f09cdb826f07a97",
+  "readme": "ERROR: No README data found!",
+  "_id": "pulsecss@1.0.0",
+  "_shasum": "f7c0bfb31c7a4737e24ac9cadc22d1083f765350",
+  "_from": "pulsecss@latest"
+}
