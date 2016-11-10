@@ -1,6 +1,6 @@
 {
   "name": "pulsecss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pulse is a minimal CSS network",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
   "author": {
     "name": "Jamie Curd",
     "email": "jamie.curd@gmail.com",
-    "url": "https://getpulse.ml"
+    "url": "https://jamiecurd.tk"
   },
   "license": "MIT",
   "bugs": {
@@ -30,7 +30,7 @@
   "homepage": "https://getpulse.ml",
   "gitHead": "57f6757bfd5a9558f503e3973f09cdb826f07a97",
   "readme": "ERROR: No README data found!",
-  "_id": "pulsecss@1.0.0",
+  "_id": "pulsecss@1.0.1",
   "_shasum": "f7c0bfb31c7a4737e24ac9cadc22d1083f765350",
   "_from": "pulsecss@latest"
 }
