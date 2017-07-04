@@ -50,3 +50,11 @@ blockquote {
   margin-right:auto;
   margin-left:auto
 }
+
+
+/*Container*/
+.container {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+}
