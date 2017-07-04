@@ -7,13 +7,12 @@ base/main CSS src File
 
 -------------------------------- */
 
-* {
-    box-sizing: border-box;
-}
-
-/*Setting deafult text size*/
+/*Setting default for font, margin's and box-sizing*/
 html {
   font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /*Setting up more base font styling and sizing, also margin's removed*/
@@ -26,11 +25,4 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
-}
-
-/*Container*/
-.container {
-    margin: auto;
-    width: 90%;
-    padding: 10px;
 }
