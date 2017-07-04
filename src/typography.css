@@ -8,7 +8,7 @@ typography CSS src File
 -------------------------------- */
 
 /*Importing font from Google*/
-@import 'https://fonts.googleapis.com/css?family=Roboto';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 /*Setting default text weight and font*/
 h1, h2, h3, h4, h5, h6 {
